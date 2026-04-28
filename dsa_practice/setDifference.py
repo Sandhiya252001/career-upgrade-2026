@@ -1,0 +1,6 @@
+N=int(input())
+a=set(input().split())
+M=int(input())
+b=set(input().split())
+count=len(a-b)
+print(count)
