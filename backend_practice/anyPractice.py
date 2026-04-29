@@ -1,7 +1,10 @@
+from typing import Any
 from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
+
+items_db = []
 
 
 class Item(BaseModel):
@@ -12,14 +15,12 @@ class Item(BaseModel):
     tags: list[str] = []
 
 
-@app.post("/items/")
+@app.post("/items/", response_model=Item)
 async def create_item(item: Item) -> Item:
+    items_db.append(item)
     return item
 
 
-@app.get("/items/")
+@app.get("/items/", response_model=list[Item])
 async def read_items() -> list[Item]:
-    return [
-        Item(name="Portal Gun", price=42.0),
-        Item(name="Plumbus", price=32.0),
-    ]
+    return items_db
