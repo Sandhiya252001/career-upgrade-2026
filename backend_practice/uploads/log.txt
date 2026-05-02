@@ -1,9 +1,10 @@
-INFO Server started
-ERROR Database connection failed
-WARNING Disk space low
-INFO Request received
-ERROR Timeout occurred
-WARNING Disk space low
-WARNING Disk space low
-ERROR Address not found
-WARNING Disk space low
+2026-05-01 10:00:01 INFO Application started
+2026-05-01 10:01:15 INFO User login successful: user_id=101
+2026-05-01 10:02:30 WARNING Disk usage at 75%
+2026-05-01 10:03:45 ERROR Failed to connect to database
+2026-05-01 10:05:10 INFO Retrying database connection
+2026-05-01 10:06:25 ERROR Database connection timeout
+2026-05-01 10:07:40 INFO User requested data export
+2026-05-01 10:08:55 WARNING Memory usage high
+2026-05-01 10:10:05 INFO Application running smoothly
+2026-05-01 10:12:20 ERROR Unexpected null pointer exception
