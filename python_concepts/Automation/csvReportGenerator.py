@@ -1,0 +1,10 @@
+import pandas as pd
+df=pd.read_csv(r"C:\Users\sandhiya.c.subramani\Desktop\Python\Day 01\career_upgrade_2026\python_concepts\emp_sample.csv")
+total_emp=len(df)
+avg_salary=df["Salary"].mean()
+Highest_Salary=df["Salary"].max()
+dept_count=df.groupby("Department").size()
+print(f"Total employees : {total_emp}")
+print(f"Average Salary : {avg_salary}")
+print(f"Highest Salary : {Highest_Salary}")
+print(f"dept_count : {dept_count}")
