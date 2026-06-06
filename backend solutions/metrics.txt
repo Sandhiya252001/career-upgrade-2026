@@ -1,0 +1,2 @@
+{'Report': 'Monitoring Report', 'Total Logs': 10, 'Errors': 3, 'Warnings': 2, 'Error Rate': 30.0}
+{'Report': 'Monitoring Report', 'Total Logs': 12, 'Errors': 5, 'Warnings': 2, 'Error Rate': 41.66666666666667}
