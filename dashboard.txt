@@ -1,0 +1,16 @@
+Total Logs: 13
+INFO Count: 5
+ERROR Count: 6
+WARNING Count: 2
+Error Rate: 46.15%
+Status: WarningTotal Logs: 13
+INFO Count: 5
+ERROR Count: 6
+WARNING Count: 2
+Error Rate: 46.15%
+Status: WarningTotal Logs: 13
+INFO Count: 5
+ERROR Count: 6
+WARNING Count: 2
+Error Rate: 46.15%
+Status: Healthy
